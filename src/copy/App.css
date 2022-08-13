@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+
+.top_bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1d2631;
+  z-index: 100;
+  margin-bottom: 2rem;
+  position: relative;
+  padding: 0 1rem .4rem;
+}
+
+.top_bar h1 {
+  font-size: 1.2rem;
+  margin: 1rem .5rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 0 .5rem;
+  margin: 1rem .25rem;
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+p {
+  font-size: 1.15rem;
+  line-height: 1.6rem;
+  padding: 1rem 2rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  padding: .5rem 1rem;
+  border-radius: .2rem;
+  border: none;
+  cursor: pointer;
+}
+
+main {
+  position: relative;
+  z-index: 1;
+}
+
+footer {
+  position: fixed;
+  bottom: 0rem;
+  width: 100%;
+  text-align: center;
+  z-index: 2;
+  font-size: 1.1rem;
+  background-color: #1d2631;
+  padding: 1.5rem;
+}

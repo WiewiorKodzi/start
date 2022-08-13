@@ -1,0 +1,30 @@
+.modal_bg {
+  right: 0;
+  top: 0;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(10, 13, 19, 0.975);
+  z-index: 101;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.modal_box {
+  background-color: #111922;
+  padding: 2rem;
+  border-radius: .2rem;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  max-width: 30rem;
+  margin: auto;
+  font-size: 1.2rem;
+}
+
+.modal_bg button {
+  margin:  1.5rem auto 0;
+}
